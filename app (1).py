@@ -9,8 +9,8 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("model (1).pkl")
+scaler = joblib.load("scaler (1).pkl")
 
 st.set_page_config(page_title="Breast Cancer Prediction", page_icon="🩺")
 
